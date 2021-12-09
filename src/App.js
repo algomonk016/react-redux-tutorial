@@ -1,14 +1,13 @@
-import './App.css';
-import { connect } from 'react-redux'
+import React from 'react'
 
-function App() {
-
-
+import './App.css'
+import CakeComponents from './components/CakeComponents'
+const App = () => {
   return (
-    <div className="App">
-      
+    <div className='App'>
+      <CakeComponents />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
