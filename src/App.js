@@ -1,11 +1,9 @@
 import React from 'react'
 import { Provider } from 'react-redux'
-
 import './App.css'
-
 import store from './redux/store'
 import HooksCakeComponents from './components/HooksCakeComponents'
-import CakeComponents from './components/CakeComponents'
+import HooksIceCreamComponents from './components/HooksIceCreamComponents'
 
 const App = () => {
   return (
@@ -13,6 +11,7 @@ const App = () => {
       <div className='App'>
         {/* <CakeComponents /> */}
         <HooksCakeComponents />
+        <HooksIceCreamComponents />
       </div>
     </Provider>
   )
