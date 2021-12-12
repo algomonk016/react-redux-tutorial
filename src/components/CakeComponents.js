@@ -24,4 +24,5 @@ const mapDispatchToProps = dispatch => {
     }
 }
 
+// connect allows us to subscribe to the redux store and dispatch action by wrapping the component
 export default connect(mapStateToProps, mapDispatchToProps)(CakeComponents)
